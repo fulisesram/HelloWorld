@@ -23,7 +23,7 @@ public class Listas {
         System.out.println("\nLista Set, no permite valores duplicados no respeta orden");
         
         /** Set */
-        Set miSet = new HashSet();
+        Set<String> miSet = new HashSet();
         miSet.add("Lun");
         miSet.add("Lun");
         miSet.add("Mar");
@@ -37,7 +37,8 @@ public class Listas {
         System.out.println("\nLista Map");
         
         /** Map */
-        Map miMap = new HashMap<>();
+        Map<String, String> miMap = new HashMap<>();
+
         miMap.put("1", "Lun");
         miMap.put("2", "Lun");
         miMap.put("3", "Mar");
